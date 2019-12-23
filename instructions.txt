@@ -1,1 +1,6 @@
+We will be working on a COCO Dataset make sure you have that in your environment 
+
+Make sure that your machine have GPU enabled beacause many libraries will require GPU mode.
+
+For epoch and batch size start with small then change the values according to response.
 
