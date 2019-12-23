@@ -1,8 +1,8 @@
 # Image-Captioning
-This is a project in which I have to generate captions for given Image dataset
+This is a project in which I have to generate captions from a given Image dataset
 
 
-![alt text](https://github.com/raunak222/Image-Captioning/blob/master/encoder-decoder.png)
+![alt text](https://github.com/raunak222/Image-Captioning/blob/master/Image/encoder-decoder.png)
 
 ##  Motivation/Purpose: 
 -  We learn how to load and pre-process data from the COCO dataset. We  also designed a CNN-RNN model for automatically generating image captions.
@@ -17,21 +17,24 @@ This is a project in which I have to generate captions for given Image dataset
 
 ## - Some Visualization
  ### Input Image
- ![alt text](https://github.com/raunak222/Image-Captioning/blob/master/download%20(5).png)
+ ![alt text](https://github.com/raunak222/Image-Captioning/blob/master/Image/download%20(5).png)
  ### Caption
  #### A jiraffe Standing in a field
 ### Input Image
-![alt text](https://github.com/raunak222/Image-Captioning/blob/master/download%20(4).png)
+![alt text](https://github.com/raunak222/Image-Captioning/blob/master/Image/download%20(4).png)
 ### Caption
 #### A man takes a slice of pizza from its plate.
  ### Input Image
- ![alt text](https://github.com/raunak222/Image-Captioning/blob/master/download%20(7).png)
+ ![alt text](https://github.com/raunak222/Image-Captioning/blob/master/Image/download%20(7).png)
  ### Caption
  ####  a surfer is riding a wave in the ocean
 ## Explaining Encoder and Decoder
- - First we perform normal style tranfer using pytorch then send the output to another user on same network using Pysyft, we also demonstrate that this can be send with encryption.
+  ## Encoder: 
+  ![alt text](https://github.com/raunak222/Image-Captioning/blob/master/Image/encoder.png)
+  For Encoder we use ResNet-50. ResNet-50 is a convolutional neural network that is trained on more than a million images from the ImageNet database. The network is 50 layers deep and can classify images into 1000 object categories, such as keyboard, mouse, pencil, and many animals. As a result, the network has learned rich feature representations for a wide range of images. The network has an image input size of 224-by-224.   
 
-- If another user gets the access to the data then we make sure to retrieve the data from user.
+## Decode:
+
 ## Developer 
   Raunak Sarada  
   - [Github](https://github.com/raunak222) 
