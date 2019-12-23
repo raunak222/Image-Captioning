@@ -1,4 +1,4 @@
-# Image-Captioning-
+# Image-Captioning
 This is a project in which I have to generate captions for given Image dataset
 ![alt text](https://github.com/raunak222/Image-Captioning/blob/master/encoder-decoder.png)
 
@@ -6,15 +6,14 @@ This is a project in which I have to generate captions for given Image dataset
 - Main Purpose of this project is, that during any importent image transfering process if Somebody tries to get the data and interupt the process then this program will make sure that receiver will not receive the data as data may be harmful or infected with viruses  In order to provide more security.
 
 ## - How to Use 
-- Go through instruction [here](https://github.com/raunak222/UdacityOpenSource/blob/master/Raunak%20Sarada/Project_style_transfer%2Cencryption%20and%20secure%20sharing/Instruction.txt)
+- Go through instruction [here](https://github.com/raunak222/Image-Captioning/blob/master/instructions.txt)
 
 ## - Some Visualization
  ### Input Image
  ![alt text](https://github.com/raunak222/Image-Captioning/blob/master/download%20(5).png)
- ### Caption
- #### A jiraffe Standing in a field
+ A jiraffe Standing in a field
 ### Input Image
-![alt text](https://github.com/raunak222/Image-Captioning/blob/master/download%20(4).pngg)
+![alt text](https://github.com/raunak222/Image-Captioning/blob/master/download%20(4).png)
 ### Caption
 #### A man takes a slice of pizza from its plate.
 ## Using Pysyft
