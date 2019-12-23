@@ -1,6 +1,6 @@
 # Image-Captioning-
 This is a project in which I have to generate captions for given Image dataset
-![alt text](https://github.com/raunak222/UdacityOpenSource/blob/master/Raunak%20Sarada/Project_style_transfer%2Cencryption%20and%20secure%20sharing/df.jpg)
+![alt text](https://github.com/raunak222/Image-Captioning/blob/master/encoder-decoder.png)
 
 ## - Motivation/Purpose: 
 - Main Purpose of this project is, that during any importent image transfering process if Somebody tries to get the data and interupt the process then this program will make sure that receiver will not receive the data as data may be harmful or infected with viruses  In order to provide more security.
@@ -9,12 +9,14 @@ This is a project in which I have to generate captions for given Image dataset
 - Go through instruction [here](https://github.com/raunak222/UdacityOpenSource/blob/master/Raunak%20Sarada/Project_style_transfer%2Cencryption%20and%20secure%20sharing/Instruction.txt)
 
 ## - Some Visualization
- ### Content Image
- ![alt text](https://github.com/raunak222/UdacityOpenSource/blob/master/Raunak%20Sarada/Project_style_transfer%2Cencryption%20and%20secure%20sharing/albert.jpg)
-### Style Image
-![alt text](https://github.com/raunak222/UdacityOpenSource/blob/master/Raunak%20Sarada/Project_style_transfer%2Cencryption%20and%20secure%20sharing/rsz_p3.jpg)
-### Output Image
-![alt text](https://github.com/raunak222/UdacityOpenSource/blob/master/Raunak%20Sarada/Project_style_transfer%2Cencryption%20and%20secure%20sharing/out_f.PNG)
+ ### Input Image
+ ![alt text](https://github.com/raunak222/Image-Captioning/blob/master/download%20(5).png)
+ ### Caption
+ #### A jiraffe Standing in a field
+### Input Image
+![alt text](https://github.com/raunak222/Image-Captioning/blob/master/download%20(4).pngg)
+### Caption
+#### A man takes a slice of pizza from its plate.
 ## Using Pysyft
  - First we perform normal style tranfer using pytorch then send the output to another user on same network using Pysyft, we also demonstrate that this can be send with encryption.
 
@@ -24,9 +26,9 @@ This is a project in which I have to generate captions for given Image dataset
   - [Github](https://github.com/raunak222) 
   - [linkedin](https://www.linkedin.com/in/raunak-sarada)
 ## Resources 
-- https://pytorch.org/tutorials/advanced/neural_style_tutorial.html
+- http://cocodataset.org/#home
 - https://blog.openmined.org
-- https://arxiv.org/abs/1508.06576
+- https://arxiv.org/pdf/1405.0312.pdf
 
 ## Citation
-- arXiv:1508.06576 [cs.CV]
+- Udacity Computer Vision Nanodegree
