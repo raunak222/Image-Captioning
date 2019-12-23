@@ -1,5 +1,7 @@
 # Image-Captioning
 This is a project in which I have to generate captions for given Image dataset
+
+
 ![alt text](https://github.com/raunak222/Image-Captioning/blob/master/encoder-decoder.png)
 
 ## - Motivation/Purpose: 
