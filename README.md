@@ -11,12 +11,17 @@ This is a project in which I have to generate captions for given Image dataset
 ## - Some Visualization
  ### Input Image
  ![alt text](https://github.com/raunak222/Image-Captioning/blob/master/download%20(5).png)
- A jiraffe Standing in a field
+ ### Caption
+ #### A jiraffe Standing in a field
 ### Input Image
 ![alt text](https://github.com/raunak222/Image-Captioning/blob/master/download%20(4).png)
 ### Caption
 #### A man takes a slice of pizza from its plate.
-## Using Pysyft
+ ### Input Image
+ ![alt text](https://github.com/raunak222/Image-Captioning/blob/master/download%20(7).png)
+ ### Caption
+ ####  a surfer is riding a wave in the ocean
+## Explaining Encoder and Decoder
  - First we perform normal style tranfer using pytorch then send the output to another user on same network using Pysyft, we also demonstrate that this can be send with encryption.
 
 - If another user gets the access to the data then we make sure to retrieve the data from user.
